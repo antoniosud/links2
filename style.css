@@ -18,7 +18,7 @@ p {
 }
 body {
   height: 100vh;
-  background-color: #00082f;
+  background-image: url(bg-desktop.jpg);
   padding: 1rem;
   position: relative;
   display: flex;
@@ -64,7 +64,8 @@ li {
   border-radius: 6px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  gap: .5rem;
   font-weight: bold;
   font-size: 14px;
 }
@@ -86,8 +87,8 @@ footer {
 }
 @media (max-width: 700px) {
   body {
-    
-    background-color: #EDF2FF;
+    height: 90vh;    
+    background-image: url(bg-mobile-light.jpg);
     
   }
   h1 {
