@@ -19,6 +19,8 @@ p {
 body {
   height: 100vh;
   background-image: url(bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 1rem;
   position: relative;
   display: flex;
@@ -89,6 +91,8 @@ footer {
   body {
     height: 90vh;    
     background-image: url(bg-mobile-light.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
   }
   h1 {
