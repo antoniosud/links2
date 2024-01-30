@@ -27,6 +27,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;  
+  
 }
 header {
   display: flex;
@@ -60,7 +61,7 @@ li {
   list-style: none;
   background-color: #4263eb;
   margin: 1.6rem;
-  height: 5rem;
+  height: 4rem;
   width: 18.7rem;
   text-align: center;
   border-radius: 6px;
